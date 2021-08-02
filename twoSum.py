@@ -1,3 +1,6 @@
+# Checking if compliment of current number was seen previously in dictionary or not
+# if not, we just add current number with its index in dictionary.
+
 def twoSum(arr, target):
 	dic = {}
 	for i in range(len(arr)):
